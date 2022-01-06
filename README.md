@@ -17,3 +17,7 @@
 | Análise do código (organização dos módulos e pacotes, boas práticas). | 2 |
 | Arquivos **requirements.txt**, **.env**, **.env.example** e **.gitignore** (**venv** e **.env** adicionados) | 1 |
 | Arquivos **.env** e **.env.example** presentes na aplicação | 1 |
+
+
+
+
