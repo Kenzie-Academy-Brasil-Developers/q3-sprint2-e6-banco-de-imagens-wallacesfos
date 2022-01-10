@@ -40,7 +40,7 @@ def isMaxTam(caminho, max_bytes):
 
 #Cria um arquivo Zip
 def create_zip(extension, lista, rate_of_compression = 7):
-    if rate_of_compression > 9:
+    if int(rate_of_compression) > 9:
         rate_of_compression = 7
 
     z = zipfile.ZipFile('final.zip', 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=int(rate_of_compression))
