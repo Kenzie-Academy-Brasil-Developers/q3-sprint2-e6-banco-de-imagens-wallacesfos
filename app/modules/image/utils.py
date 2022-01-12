@@ -2,12 +2,12 @@ import os
 import zipfile
 
 def files_fuction(type_extensions):
-    pasta = './images'
+    pasta = '/images'
 
     items = []
     for diretorio, subpastas, arquivos in os.walk(pasta):
         for arquivo in arquivos:
-            lista = os.path.join(diretorio, arquivo).split('\\')
+            lista = os.path.join(diretorio, arquivo).split('/')
             extension = str(lista[-1]).split('.')
             if extension[1] == type_extensions: 
                 items.append(lista[-1])

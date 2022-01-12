@@ -37,7 +37,7 @@ def list_files():
 
     for diretorio, subpastas, arquivos in os.walk('./images'):
         for arquivo in arquivos:
-            lista = os.path.join(diretorio, arquivo).split('\\')
+            lista = os.path.join(diretorio, arquivo).split('/')
             items.append(lista[-1])
     return jsonify(items), 200
 
