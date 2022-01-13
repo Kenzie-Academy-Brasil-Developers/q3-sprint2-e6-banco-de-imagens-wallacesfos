@@ -2,7 +2,7 @@ import os
 import zipfile
 
 def files_fuction(type_extensions):
-    pasta = '/images'
+    pasta = './images'
 
     items = []
     for diretorio, subpastas, arquivos in os.walk(pasta):
